@@ -2,7 +2,7 @@
 
 Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, Lélio Renard Lavaud, Marie-Anne Lachaux, Pierre Stock, Teven Le Scao, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed
 
-![img-0.jpeg](images/img-0.jpeg.png)
+![img-0.jpeg](images/img-0.jpg)
 
 # Abstract
 
@@ -24,12 +24,12 @@ Mistral 7B takes a significant step in balancing the goals of getting high perfo
 
 # 2 Architectural details
 
-![img-1.jpeg](images/img-1.jpeg.png)
+![img-1.jpeg](images/img-1.jpg)
 Figure 1: Sliding Window Attention. The number of operations in vanilla attention is quadratic in the sequence length, and the memory increases linearly with the number of tokens. At inference time, this incurs higher latency and smaller throughput due to reduced cache availability. To alleviate this issue, we use sliding window attention: each token can attend to at most  $W$  tokens from the previous layer (here,  $W = 3$ ). Note that tokens outside the sliding window still influence next word prediction. At each attention layer, information can move forward by  $W$  tokens. Hence, after  $k$  attention layers, information can move forward by up to  $k \times W$  tokens.
 
-![img-2.jpeg](images/img-2.jpeg.png)
+![img-2.jpeg](images/img-2.jpg)
 
-![img-3.jpeg](images/img-3.jpeg.png)
+![img-3.jpeg](images/img-3.jpg)
 
 Mistral 7B is based on a transformer architecture [27]. The main parameters of the architecture are summarized in Table 1. Compared to Llama, it introduces a few changes that we summarize below.
 
@@ -51,12 +51,12 @@ Table 1: Model architecture.
 
 Rolling Buffer Cache. A fixed attention span means that we can limit our cache size using a rolling buffer cache. The cache has a fixed size of  $W$ , and the keys and values for the timestep  $i$  are stored in position  $i \mod W$  of the cache. As a result, when the position  $i$  is larger than  $W$ , past values in the cache are overwritten, and the size of the cache stops increasing. We provide an illustration in Figure 2 for  $W = 3$ . On a sequence length of 32k tokens, this reduces the cache memory usage by 8x, without impacting the model quality.
 
-![img-4.jpeg](images/img-4.jpeg.png)
+![img-4.jpeg](images/img-4.jpg)
 Figure 2: Rolling buffer cache. The cache has a fixed size of  $W = 4$ . Keys and values for position  $i$  are stored in position  $i \mod W$  of the cache. When the position  $i$  is larger than  $W$ , past values in the cache are overwritten. The hidden state corresponding to the latest generated tokens are colored in orange.
 
 Pre-fill and Chunking. When generating a sequence, we need to predict tokens one-by-one, as each token is conditioned on the previous ones. However, the prompt is known in advance, and we can pre-fill the  $(k,v)$  cache with the prompt. If the prompt is very large, we can chunk it into smaller pieces, and pre-fill the cache with each chunk. For this purpose, we can select the window size as our chunk size. For each chunk, we thus need to compute the attention over the cache and over the chunk. Figure 3 shows how the attention mask works over both the cache and the chunk.
 
-![img-5.jpeg](images/img-5.jpeg.png)
+![img-5.jpeg](images/img-5.jpg)
 Figure 3: Pre-fill and chunking. During pre-fill of the cache, long sequences are chunked to limit memory usage. We process a sequence in three chunks, "The cat sat on", "the mat and saw", "the dog go to". The figure shows what happens for the third chunk ("the dog go to"): it attends itself using a causal mask (rightmost block), attends the cache using a sliding window (center block), and does not attend to past tokens as they are outside of the sliding window (left block).
 
 # 3 Results
@@ -72,10 +72,10 @@ We compare Mistral 7B to Llama, and re-run all benchmarks with our own evaluatio
 
 Detailed results for Mistral 7B, Llama 2 7B/13B, and Code-Llama 7B are reported in Table 2. Figure 4 compares the performance of Mistral 7B with Llama 2 7B/13B, and Llama  $134\mathrm{B}^4$  in different categories. Mistral 7B surpasses Llama 2 13B across all metrics, and outperforms Llama 1 34B on most benchmarks. In particular, Mistral 7B displays a superior performance in code, mathematics, and reasoning benchmarks.
 
-![img-6.jpeg](images/img-6.jpeg.png)
+![img-6.jpeg](images/img-6.jpg)
 Figure 4: Performance of Mistral 7B and different Llama models on a wide range of benchmarks. All models were re-evaluated on all metrics with our evaluation pipeline for accurate comparison. Mistral 7B significantly outperforms Llama 2 7B and Llama 2 13B on all benchmarks. It is also vastly superior to Llama 1 34B in mathematics, code generation, and reasoning benchmarks.
 
-![img-7.jpeg](images/img-7.jpeg.png)
+![img-7.jpeg](images/img-7.jpg)
 
 |  Model | Modality | MMLU | HellaSwag | WinoG | PIQA | Arc-e | Arc-c | NQ | TriviaQA | HumanEval | MBPP | MATH | GSM8K  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -108,14 +108,14 @@ Table 3: Comparison of Chat models. Mistral 7B - Instruct outperforms all 7B mod
 
 In this evaluation, participants were provided with a set of questions along with anonymous responses from two models and were asked to select their preferred response, as illustrated in Figure 6. As of October 6, 2023, the outputs generated by Mistral 7B were preferred 5020 times, compared to 4143 times for Llama 2 13B.
 
-![img-8.jpeg](images/img-8.jpeg.png)
+![img-8.jpeg](images/img-8.jpg)
 
-![img-9.jpeg](images/img-9.jpeg.png)
+![img-9.jpeg](images/img-9.jpg)
 
-![img-10.jpeg](images/img-10.jpeg.png)
+![img-10.jpeg](images/img-10.jpg)
 Figure 5: Results on MMLU, commonsense reasoning, world knowledge and reading comprehension for Mistral 7B and Llama 2 (7B/I3B/70B). Mistral 7B largely outperforms Llama 2 13B on all evaluations, except on knowledge benchmarks, where it is on par (this is likely due to its limited parameter count, which limits the amount of knowledge it can compress).
 
-![img-11.jpeg](images/img-11.jpeg.png)
+![img-11.jpeg](images/img-11.jpg)
 
 # 5 Adding guardrails for front-facing applications
 
