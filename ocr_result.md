@@ -180,7 +180,7 @@ Next Round (Enter) →
 
 Round Winner: mistral-7b-instruct-v0.1
 
-![img-12.jpeg](images/img-12.jpeg.png)
+![img-12.jpeg](images/img-12.jpg)
 Figure 6: Human evaluation of Mistral 7B – Instruct vs Llama 2 13B – Chat Example. An example of human evaluation from llmboxing.com. The question asks for recommendations of books in quantum physics. Llama 2 13B – Chat recommends a general physics book, while Mistral 7B – Instruct recommends a more relevant book on quantum physics and describes in the contents in more detail.
 
 mistral-7b-instruct-v0.1 Round Winner
