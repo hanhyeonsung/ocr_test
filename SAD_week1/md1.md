@@ -1,8 +1,10 @@
 <div style="max-width: 700px; margin: auto;">
-<span style="font-size: 40px;"><b>시스템 분석설계 1주차 </b></span>
 
 
-<span style="font-size: 20px;"><b>저작권 안내</b></span>
+<h1> 시스템 분석설계 1주차 </h1>
+
+
+## 저작권 안내
 
 > 이 강의 교안은 한국공학대학교 경영학부 강송희 교수의 저작물로, <br> 저작권법의 보호를 받습니다.
 무단 전재와 복제를 삼가주시기 바랍니다.
@@ -10,9 +12,10 @@
 Educational/Non-commercial CC BY-NC
 
 
-<span style="font-size: 40px;"><b>오리엔테이션</b></span><br>
-<span style="font-size: 20px;"><b>Orientation</b></span>
+# 오리엔테이션
+### Orientation
 
+<br>
 
 # 강송희 교수 소개
 <p align="center">
@@ -56,8 +59,6 @@ Educational/Non-commercial CC BY-NC
     <span style="font-size: 20px;"><b>AX-ID랩</b></span><br><br><br>
     <span style="font-size: 15px;">책임: 강송희 교수(한국공학대학교)</span><br><br>
     <span style="font-size: 15px;">Engineering tomorrow where technology serves people</span>><br>
-
-    
 </p>
 
 <br><br>
@@ -105,8 +106,10 @@ Educational/Non-commercial CC BY-NC
 
 <br><br>
 
-<span style="font-size: 40px;"><b>과목 개요</b></span><br>
-<span style="font-size: 20px;"><b>Course Overview</b></span>
+# 과목 개요
+### Course Overview
+
+<br>
 
 # 과목 일반사항
 
@@ -414,8 +417,8 @@ AI 역량이 미래 고용을 좌우
 
 
 
-<span style="font-size: 40px;"><b>시스템 분석 및 설계'의 중요성</b></span><br>
-<span style="font-size: 20px;"><b>비즈니스 혁신과 디지털 전환의 핵심 역량</b></span>
+# 시스템 분석 및 설계'의 중요성
+### 비즈니스 혁신과 디지털 전환의 핵심 역량
 
 
 ># Design is a process of making dreams come true.
@@ -665,8 +668,8 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 <br><br>
 
 
-<span style="font-size: 40px;"><b>시스템과 시스템 개발자</b></span><br>
-<span style="font-size: 20px;"><b>정보시스템의 개념과 개발에 참여하는 사람들의 역할</b></span>
+# 시스템과 시스템 개발자
+### 정보시스템의 개념과 개발에 참여하는 사람들의 역할
 
 
 # 시스템의 개념과 정의
@@ -728,8 +731,8 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 
 
 
-<span style="font-size: 40px;"><b>시스템 개발 생명주기 (SDLC)</span></b><br>
-<span style="font-size: 20px;"><b>체계적인 소프트웨어 개발의 순환 과정과 단계별 활동</b></span>
+# 시스템 개발 생명주기 (SDLC)
+### 체계적인 소프트웨어 개발의 순환 과정과 단계별 활동
 
 
 ![img-26.jpeg](week1_images/p52_img-26.jpg)
@@ -849,10 +852,11 @@ ERD(Entity-Relationship Diagram)
 테스트 과정에서 발견된 결함을 기록, 추적, 해결하는 프로세스로, 심각도와 우선순위에 따라 체계적으로 관리
 
 
-<span style = "color:#092441">단위테스트</span> <br>
-<span style = "color:#154f98">통합테스트</span> <br>
-<span style = "color:#267ce1">시스템테스트</span> <br>
-<span style = "color:#7aadec">사용자 수용테스트</span> <br>
+- 🔵 **단위 테스트**
+- 🟦 **통합 테스트**
+- 🔷 **시스템 테스트**
+- 🟢 **사용자 수용 테스트**
+
 
 ![img-36.jpeg](week1_images/p58_img-36.jpg)
 
@@ -876,7 +880,7 @@ ERD(Entity-Relationship Diagram)
 
 ![img-38.jpeg](week1_images/p59_img-38.jpg)
 
-60
+
 
 # SDLC 단계별 산출물, 유의사항
 
@@ -1276,7 +1280,7 @@ SaaS, PaaS, IaaS 등 서비스형 모델 확산, 하이브리드 클라우드 �
 
 이어지는 강의에서는 이러한 개념들을 더 깊이 탐구하고, 실제 프로젝트에 적용하는 방법을 배우게 될 것입니다. 특히 요구사항 분석과 설계 단계에서 실습을 통해 실무 역량을 강화할 예정입니다.
 
-81
+
 
 # 토론 및 질문
 
