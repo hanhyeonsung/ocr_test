@@ -1,4 +1,4 @@
-<h1 align="center">시스템 분석설계 1주차</h1>
+# 시스템 분석설계 1주차 
 
 
 <span style="font-size: 20px;"><b>저작권 안내</b></span>
@@ -9,9 +9,10 @@
 Educational/Non-commercial CC BY-NC
 
 
-<span style="font-size: 40px;"><b>오리엔테이션</b></span><br>
-<span style="font-size: 20px;"><b>Orientation</b></span>
 
+# 오리엔테이션_Orientation</b>
+
+<br>
 
 # 강송희 교수 소개
 
