@@ -1,6 +1,4 @@
-<div style="max-width: 700px; margin: auto;">
-    
-<span style="font-size: 40px;"><b>시스템 분석설계 1주차 </b></span>
+<h1 align="center">시스템 분석설계 1주차</h1>
 
 
 <span style="font-size: 20px;"><b>저작권 안내</b></span>
