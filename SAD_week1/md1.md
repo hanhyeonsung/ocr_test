@@ -135,9 +135,9 @@ PBL 학습 효과
 제32조 및 학칙시행세칙 제51조에 의거하여 평가하며, 각 항목별 루브릭(평가기준표)은 별도 안내 예정
 
 
-
-<img src="week1_images\p14-img-6.jpg" alt="alt text" style="width:100%;">
-
+<p align="center">
+    <img src="week1_images\p14-img-6.jpg" alt="alt text" style="width:100%;">
+</p>
 
 
 |  평가항목 | 비율 (%) | 세부내용  |
@@ -279,7 +279,9 @@ PBL 학습 효과
 
 # 시스템 분석 및 설계 개요_SAD Overview
 
-![img-7.jpeg](week1_images/p19_img-7.jpg)
+<p align="center">
+    <img src="week1_images/p19_img-7.jpg">
+</p>
 
 # 메가 트렌드
 
@@ -299,9 +301,9 @@ Born: February 28, 1953
 - Prolific columnist for The New York Times
 - Played a key role in the resurgence of Keynesian economics in the wake of the Great Recession
 
-
-
-![img-8.jpeg](week1_images/PaulKrugman.jpg)
+<p align="center">
+    <img src = "week1_images/PaulKrugman.jpg"><img>
+</p>
 
 Peddling Prosperity: Economic Sense and Nonsense in the Age of Diminished Expectation. By Paul Krugman. London: Norton. 1994. 303pp.
 
@@ -315,7 +317,9 @@ Peddling Prosperity: Economic Sense and Nonsense in the Age of Diminished Expect
 # 기술 변곡점의 도래
 
 
-![img-9.jpeg](week1_images/p21_img-9.jpg)
+<p align="center">
+    <img src = "week1_images/p21_img-9.jpg">
+</p>
 
 - 세계경제포럼은 2023년 정례회의에서 생성AI를 게임 체인저로 정의하고, 사회와 산업 차원의 신중한 대비와 논의가 필요하다는 의견을 발표
 - 민간 재단이 운영하는 포럼이지만 세계 각국의 정치·경제 지도자 2000명 안팎이 참여해 다양한 주제에 대한 의견과 정보를 교환하고 논의를 하는 모임으로, 세계무역기구 등 국제기구나 세계 경제 활동에 큰 영향
@@ -328,8 +332,9 @@ Peddling Prosperity: Economic Sense and Nonsense in the Age of Diminished Expect
 # AI가 경제를 평균 두배로 성장시킨다
 
 
-
-![img-10.jpeg](week1_images/p22_img-10.jpg)
+<p align = 'center'>
+    <img src="week1_images/p22_img-10.jpg">
+</p>
 
 ## AI 도입에 따른 생산성 향상
 
@@ -353,7 +358,10 @@ Peddling Prosperity: Economic Sense and Nonsense in the Age of Diminished Expect
 # 퓨처 콘
 
 > # 미래? : 경험하지 못한 세상에 대한 상상
-![img-11.jpeg](week1_images/p23_img-11.jpg)
+
+<p align = 'center'>
+    <img src = "week1_images/p23_img-11.jpg">
+</p>
 
 Hancock, T. &amp; Bezold, C. (1994), ‘Possible Futures, Preferable Futures’, Healthcare Forum Journal, 37(2):23-29; Voros, J. (2003), ‘A generic foresight process framework’, Foresight, 5(3):10-21
 
@@ -364,7 +372,9 @@ Hancock, T. &amp; Bezold, C. (1994), ‘Possible Futures, Preferable Futures’,
 > # SPRi DaRT 2024 : 디지털 기술의 중-장기 진화 방향의 Keyword
 > Dynamic Radar for Trends and signals
 
-![img-12.jpeg](week1_images/spri_dart_keyword.jpg)
+<p align = 'center'>
+    <img src = "week1_images/spri_dart_keyword.jpg">
+</p>
 
 <br>
 
@@ -410,12 +420,14 @@ AI 역량이 미래 고용을 좌우
 # 경영학도가 시스템분석및 설계 과목, 왜 들어야 하나요?
 > ## 근본적인 질문
 
-![img-15.jpeg](week1_images/p28_img-15.jpg)
 
-![img-16.jpeg](week1_images/p29_img-16.jpg)
+<p align = 'center'>
+    <img src="week1_images/p28_img-15.jpg">
+</p>
 
-
-
+<p align = 'center'>
+    <img src="week1_images/p29_img-16.jpg">
+</p>
 
 # 시스템 분석 및 설계'의 중요성
 ### 비즈니스 혁신과 디지털 전환의 핵심 역량
@@ -483,14 +495,19 @@ PREST
 
 혁신적인 디지털 서비스(AI 기반 솔루션, 클라우드 플랫폼 등)의 성공은 강도 높은 분석과 설계를 바탕으로, 서비스 구조를 유연하게 설계·진화시키는 데서 시작됩니다.
 
-![img-18.jpeg](week1_images/p34_img-18.jpg)
+<p align = 'center'>
+    <img src="week1_images/p34_img-18.jpg">
+</p>
 
 이해관계자·운영환경 다양성 대응
 
 ## 다양한 이해관계자
 서비스 전환 과정에서는 고객, 운영자, 개발자 등 다양한 이해관계자와 기존 시스템(레거시)·신규 기술(예:AI, 클라우드) 사이의 복잡한 요구와 충돌을 조정해야 합니다.
 
-![img-19.jpeg](week1_images/p35_img-19.jpg)
+
+<p align = 'center'>
+    <img src="week1_images/p35_img-19.jpg">
+</p>
 
 ## 관점 통합 능력
 이해관계자별 다른 관점과 목표를 통합적으로 관리하는 능력이 시스템 분석가의 핵심 역량으로, 성공적인 프로젝트 완수를 위한 필수 요소입니다.
@@ -511,7 +528,11 @@ ISO/IEC 27001(정보보안), ISO 25000(소프트웨어 품질), IEEE/ISO/IEC 등
 
 사전 분석·설계가 명확해야만 빠르고 안전하게 복잡한 환경에 대응할 수 있으며, 급변하는 글로벌 비즈니스와 규제 환경 속에서도 지속가능한 시스템 운영이 가능합니다.
 
-![img-20.jpeg](week1_images/p37_img-20.jpg)
+
+
+<p align = 'center'>
+    <img src="week1_images/p37_img-20.jpg">
+</p>
 
 # 시스템 개발 과정의 이해
 
@@ -537,7 +558,10 @@ TPS, MIS, DSS 등 다양한 정보시스템의 특징과 적용 환경 파악
 ## 시스템 개발 참여자
 시스템 분석가, 개발자, 이해관계자 간의 역할과 협업 방식 이해
 
-![img-21.jpeg](week1_images/p39_img-21.jpg)
+<p align = 'center'>
+    <img src="week1_images/p39_img-21.jpg">
+</p>
+
 
 # 문제 정의 및 프로젝트 기획
 
@@ -616,7 +640,13 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 - 무결성 (Integrity): 데이터와 시스템의 안전성과 보안성
 - 사용성 (Usability): 사용자가 쉽게 배우고 사용할 수 있는 정도
 
-![img-22.jpeg](week1_images/p44_img-22.jpg)
+
+<p align = 'center'>
+    <img src = "week1_images/p44_img-22.jpg">
+</p>
+
+
+
 
 # 소프트웨어 공학의 계층구조 2
 
@@ -686,8 +716,10 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 ## 데이터 처리를 통한 가치 창출
 단순 데이터를 의미 있는 정보로 변환하여 조직이 시장 변화에 신속하게 대응하고 비즈니스 기회를 포착할 수 있도록 지원합니다.
 
-![img-24.jpeg](week1_images/p48_img-24.jpg)
 
+<p align = 'center'>
+    <img src = "week1_images/p48_img-24.jpg"0>
+</p>
 
 
 # 시스템 개발 참여자
@@ -726,16 +758,22 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 ## 협업 리더십
 프로젝트 팀을 효과적으로 이끌고 다양한 전문가들과 협력하여 공통 목표를 달성하는 능력
 
-![img-25.jpeg](week1_images/p51_img-25.jpg)
 
 
+<p align = 'center'>
+    <img src = "week1_images/p51_img-25.jpg">
+</p>
 
 
 # 시스템 개발 생명주기 (SDLC)
 ### 체계적인 소프트웨어 개발의 순환 과정과 단계별 활동
 
 
-![img-26.jpeg](week1_images/p52_img-26.jpg)
+
+<p align = 'center'>
+    <img src = "week1_images/p52_img-26.jpg">
+</p>
+
 
 # SDLC 단계 1: 문제/기회/목표 식별
 
@@ -771,7 +809,11 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 - 기능적 요구사항: 시스템이 수행해야 할 기능
 - 비기능적 요구사항: 성능, 보안, 사용성 등 품질 속성
 
-![img-27.jpeg](week1_images/p54_img-27.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p54_img-27.jpg">
+</p>
+
+
 
 ## 요구사항 수집 기법
 
@@ -793,7 +835,10 @@ CASE(Computer-Aided Software Engineering)는 소프트웨어 개발 전 단계�
 ## 데이터 흐름도(DFD)
 시스템 내부의 데이터 흐름을 시각적으로 표현하는 도구로, 프로세스 간의 데이터 이동과 저장소를 명확하게 보여줍니다. 사용자와 개발자 간의 효과적인 의사소통 도구로 활용됩니다.
 
-![img-28.jpeg](week1_images/p55_img-28.jpg)
+
+<p align = 'center'>
+    <img src = "week1_images/p55_img-28.jpg">
+<p>
 
 # SDLC 단계 4: 설계
 
@@ -831,7 +876,9 @@ ERD(Entity-Relationship Diagram)
 ## 피드백 수집 및 반영
 초기 사용자 테스트를 통한 개선점 도출 및 설계 변경
 
-![img-35.jpeg](week1_images/p57_img-35.jpg)
+<p align = 'center'>
+    <img src="week1_images/p57_img-35.jpg">
+</p>
 
 # SDLC 단계 6: 테스트 및 검증
 
@@ -858,10 +905,13 @@ ERD(Entity-Relationship Diagram)
 - 🟢 **사용자 수용 테스트**
 
 
-![img-36.jpeg](week1_images/p58_img-36.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p58_img-36.jpg">
+</p>
 
-
-![img-37.jpeg](week1_images/p58_img-37.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p58_img-37.jpg">
+</p>
 
 > ### 테스트 단계는 결함 수정 비용이 구현 후보다 10-100배 낮으므로 품질 보증의 핵심
 
@@ -878,13 +928,17 @@ ERD(Entity-Relationship Diagram)
 
 ☐ SDLC 전체 비용의 약 60-80%가 유지보수 단계에서 소요됩니다.
 
-![img-38.jpeg](week1_images/p59_img-38.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p59_img-38.jpg">
+</p>
 
 
 
 # SDLC 단계별 산출물, 유의사항
 
-![img-39.jpeg](week1_images/p60_img-39.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p60_img-39.jpg">
+</p>
 
 ## SDLC 단계별 주요 산출물
 
@@ -930,7 +984,9 @@ ERD(Entity-Relationship Diagram)
 ## 활용 한계
 요구사항이 명확하고 안정적인 프로젝트에 적합하며, 빠른 변화가 필요하거나 불확실성이 높은 환경에서는 애자일 등 다른 방법론 고려 필요
 
-![img-40.jpeg](week1_images/p61_img-40.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p61_img-40.jpg">
+</p>
 
 # 프로토타입 개발 방법론
 
@@ -958,14 +1014,18 @@ ERD(Entity-Relationship Diagram)
 
 문서화 부족과 프로토타입이 최종 시스템으로 사용되는 오해 발생 가능
 
-![img-41.jpeg](week1_images/p62_img-41.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p62_img-41.jpg">
+</p>
 
 > # 애자일 개발 방법론의 이해
 > ## 변화에 유연하게 대응하는 시스템 개발 접근법
 
 >> 애자일 방법론은 빠르게 변화하는 비즈니스 환경에서 유연하고 적응적인 개발을 지향합니다. 전통적인 폭포수 모델과 달리 반복적이고 점진적인 개발을 통해 고객 요구사항의 변화에 신속하게 대응할 수 있습니다.
 
-![img-42.jpeg](week1_images/p63_img-42.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p63_img-42.jpg">
+</p>
 
 # 애자일 선언문의 핵심 가치
 
@@ -983,9 +1043,14 @@ ERD(Entity-Relationship Diagram)
 
 > ### 2001년 발표된 애자일 선언문은 소프트웨어 개발의 패러다임 전환을 가져왔으며, 오늘날 대부분의 현대적 개발 방법론의 기초가 되었습니다.
 
-![img-43.jpeg](week1_images/p65_img-43.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p65_img-43.jpg">
+</p>
 
-![img-44.jpeg](week1_images/p65_img-44.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p65_img-44.jpg">
+</p>
+
 
 # 애자일 개발 방법론의 주요 프레임워크
 
@@ -1034,13 +1099,15 @@ XP(eXtreme Programming)는 소프트웨어 품질과 개발팀의 변화 대응�
 
 # 애자일과 전통적 방법론 비교
 
-![img-45.jpeg](week1_images/p67_img-45.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p67_img-45.jpg">
+</p>
 
 애자일 방법론은 변화에 유연하게 대응하고 고객과의 지속적인 협력을 중시하는 반면, 전통적인 폭포수 모델은 체계적인 문서화와 초기 계획에 의존하는 특성을 보입니다. 프로젝트의 성격과 요구사항의 명확성에 따라 적합한 방법론을 선택하는 것이 중요합니다.
 
 # 애자일 도입 시 고려사항
 <p align = 'center'>
-<img src = "week1_images/ejail.jpg">
+    <img src = "week1_images/ejail.jpg">
 </p>
 
 ## 조직 문화
@@ -1069,13 +1136,16 @@ XP(eXtreme Programming)는 소프트웨어 품질과 개발팀의 변화 대응�
 - 품질 향상: 지속적인 통합과 테스트로 제품 품질 개선
 - 고객 만족도 증가: 고객 참여와 피드백 반영으로 사용자 요구에 더 부합하는 제품 개발
 - 팀 생산성 향상: 자율적인 팀운영과 장애물 제거로 생산성 증대
+
 <p align = 'center'>
-<img src = "week1_images/meeting_img.jpg">
+    <img src = "week1_images/meeting_img.jpg">
 </p> 
 
 애자일 방법론은 단순한 개발 프로세스를 넘어 비즈니스 성과와 고객 가치 창출에 직접적으로 기여하는 전략적 접근법입니다.
 
-![img-48.jpeg](week1_images/p70_img-48.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p70_img-48.jpg">
+</p>
 
 # 대규모 애자일: SAFe, LeSS, Nexus
 
@@ -1107,15 +1177,17 @@ XP(eXtreme Programming)는 소프트웨어 품질과 개발팀의 변화 대응�
 ##### 국내 기업들도 글로벌 트렌드에 맞춰 애자일 방법론을 도입하고 있으며, 각 기업의 특성과 문화에 맞게 방법론을 조정하여 적용하고 있습니다.
 
 
-![img-49.jpeg](week1_images/p71_img-49.jpg)
+<p align = 'center'>
+    <img src = "week1_images/p71_img-49.jpg">
+</p>
 
 # 프로젝트 관리자의 역할
 
+
 <p align = 'center'>
-
-![img-50.jpeg](week1_images/p72_img-50.jpg)
-
+    <img src = "week1_images/p72_img-50.jpg">
 </p>
+
 
 ## 계획 관리
 프로젝트의 범위, 목표, 필요 자원, 활동 계획 수립 및 이해관계자 관리, 실행 전략 개발
@@ -1140,7 +1212,9 @@ XP(eXtreme Programming)는 소프트웨어 품질과 개발팀의 변화 대응�
 | **04** | **05** |   |
 | **감시/통제 (Monitor & Control)**<br>프로젝트 진행 상황 모니터링<br>변경 관리<br>범위·일정·비용 통제<br>성과 측정 및 보고<br>위험 관리 및 이슈 해결 | **종료 (Closure)**<br>프로젝트 완료 및 평가<br>최종 산출물 인도 및 승인<br>교훈 문서화<br>프로젝트 평가 및 성공 측정<br>자원 해제 및 행정적 종료 |   |
 
-![img-51.jpeg](week1_images/p74_img-51.jpg)
+<p align = 'center'>
+    <img src ="week1_images/p74_img-51.jpg">
+</p>
 
 # 정보시스템 분류 개요
 
@@ -1160,9 +1234,13 @@ XP(eXtreme Programming)는 소프트웨어 품질과 개발팀의 변화 대응�
 
 POS 시스템(판매 시점 관리), 예약 시스템, 은행 ATM, 급여 처리, 재고 관리, 주문 처리 시스템 등 기업의 일상적 운영 업무를 지원하는 필수 시스템
 
-![img-52.jpeg](week1_images/p75_img-52.jpg)
+<p align = 'center'>
+    <img src ="week1_images/p75_img-52.jpg">
+</p>
 
-![img-53.jpeg](week1_images/p75_img-53.jpg)
+<p align = 'center'>
+    <img src ="week1_images/p75_img-53.jpg">
+</p>
 
 # 지식/사무/관리가치 정보시스템
 
