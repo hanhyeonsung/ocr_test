@@ -43,7 +43,8 @@ Educational/Non-commercial CC BY-NC
 
 
 
-<span style="font-size: 40px;"><b>연구실 소개</b></span>
+
+<h1 style="font-size: 40px;"><b>연구실 소개</b></h1>
 
 
 <br>
