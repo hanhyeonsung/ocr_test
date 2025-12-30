@@ -16,9 +16,11 @@ Educational/Non-commercial CC BY-NC
 
 
 # 강송희 교수 소개
+
 <div align = 'center'>
 <img src="images/p4_img-3.jpg" width="400" height="500">
 </div>
+
 ## 학력 및 경력
 - 한국공학대학교 경영학부 조교수 (현재)
 금융산업표준개발 기술위원회 기술분과 위원
