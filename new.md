@@ -12,7 +12,6 @@ Educational/Non-commercial CC BY-NC
 
 # 오리엔테이션_Orientation</b>
 
-<br>
 
 # 강송희 교수 소개
 
