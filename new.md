@@ -16,7 +16,7 @@ Educational/Non-commercial CC BY-NC
 
 # 강송희 교수 소개
 <p align="center">
-  <img src="images/p4_img-3.jpg" width="400" height="500">
+  <img src="images/img-0.jpg" width="400" height="500">
 </p>
 
 </div>
